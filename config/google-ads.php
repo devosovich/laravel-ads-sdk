@@ -50,6 +50,7 @@ return [
 
          'clientId' => env('ADWORDS_OAUTH2_CLIENT_ID', ''),
          'clientSecret' => env('ADWORDS_OAUTH2_CLIENT_SECRET', ''),
+         'redirectUrl' => env('ADWORDS_OAUTH2_REDIRECT_URL', ''),
          'refreshToken' => env('ADWORDS_OAUTH2_REFRESH_TOKEN', ''),
 
         /*

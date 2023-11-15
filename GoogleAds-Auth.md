@@ -22,7 +22,7 @@ Create an application using the [Google Cloud Platform](https://console.cloud.go
 
 4) Create OAuth Client ID (select **Application type: Desktop App or Native App**)
 
-5) Fill in .env `ADWORDS_OAUTH2_CLIENT_ID` and `ADWORDS_OAUTH2_CLIENT_SECRET`
+5) Fill in .env `ADWORDS_OAUTH2_CLIENT_ID`, `ADWORDS_OAUTH2_CLIENT_SECRET` and `ADWORDS_OAUTH2_REDIRECT_URL`
 
 ## (3) Generate Refresh Token
 

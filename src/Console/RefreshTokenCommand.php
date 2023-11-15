@@ -65,7 +65,7 @@ class RefreshTokenCommand extends Command
 
         $scopes = 'https://www.googleapis.com/auth/adwords';
         $authorizationUri = 'https://accounts.google.com/o/oauth2/v2/auth';
-        $redirectUri = 'urn:ietf:wg:oauth:2.0:oob';
+        $redirectUri = $config['redirectUrl'];
 
         $oauth2 = new OAuth2([
             'authorizationUri' => $authorizationUri,
