@@ -15,7 +15,7 @@
 		"php": "^8.1",
 		"googleads/googleads-php-lib": "^63.0",
 		"microsoft/bingads": "^13.0.17",
-		"facebook/php-business-sdk": "^18.0"
+		"facebook/php-business-sdk": "20.*"
 	},
 
 	"require-dev": {
